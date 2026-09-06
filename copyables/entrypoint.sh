@@ -4,7 +4,6 @@ echo "Start entrypoint.sh"
 
 set -e
 
-mkdir -p /var/run/sshd
 
 echo "Generating SSH host keys..."
 ssh-keygen -A
